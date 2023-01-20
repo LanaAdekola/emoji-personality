@@ -1,4 +1,3 @@
-
 const myEmojis = ["🎸","🎶", "🎹", "👨‍💻", "⚽", "🎥"]
 const emojiContainer = document.getElementById("emoji-container")
 const emojiInput = document.getElementById("emoji-input")
@@ -33,6 +32,7 @@ unshiftBtn.addEventListener("click", function(){
         renderEmojis()
     }
 })
+
 popBtn.addEventListener("click", function() {
     myEmojis.pop()
     renderEmojis()
@@ -42,3 +42,4 @@ shiftBtn.addEventListener("click", function() {
     myEmojis.shift()
     renderEmojis()
 })
+
