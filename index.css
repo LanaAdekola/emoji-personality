@@ -1,1 +1,18 @@
-dj
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(#5DA4D9, #FFF);
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
