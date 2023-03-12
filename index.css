@@ -17,7 +17,8 @@ body {
     margin: 10px;
     font-size: 60px;
 }
-#push-btn, #unshift-btn {
+
+#push-btn,#unshift-btn {
     background-color: #80D87F;
 }
 
@@ -43,6 +44,7 @@ input {
 
 button {
     font-family: Baloo;
+    letter-spacing: px;
     background: darkcyan;
     color: white;
     border: none;
@@ -54,5 +56,6 @@ button {
 .buttons-wrapper {
     display: flex;
     justify-content: center;
-    margin: 10px 0 0;
+    margin: 10px 0 40px;
 }
+
